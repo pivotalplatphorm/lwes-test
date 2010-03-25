@@ -1,0 +1,6 @@
+[submodule "vendor/plugins/pivotal_core_bundle"]
+	path = vendor/plugins/pivotal_core_bundle
+	url = git@github.com:pivotalprivate/pivotal_core_bundle.git
+[submodule "vendor/plugins/git_helper"]
+	path = vendor/plugins/git_helper
+	url = git@github.com:pivotalprivate/git_helper.git

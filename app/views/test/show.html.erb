@@ -1,0 +1,9 @@
+<% unless flash[:notice].blank? %>
+  <div class="flash">
+    <%= flash[:notice] %>
+  </div>
+<% end %>
+
+<% form_tag(test_path) do %>
+  <%= submit_tag "Send an event" %>
+<% end %>
